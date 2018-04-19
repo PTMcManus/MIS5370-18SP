@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <h1>MIS5370 Spring 2018 Class Database Application</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
+        <p class="lead">This application is developed by the students of MIS5370 Database Design and Implementation class of Spring 2018 at the Texas A&amp;M International University.</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
@@ -12,29 +12,41 @@
         <div class="col-md-4">
             <h2>Human Resources</h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
+                Human resource management and related functions.</p>
             <p>
-                <a class="btn btn-default" href="G1Home.aspx">Go to HR Homepage &raquo;</a>
+                <a class="btn btn-default" href="G1Home">Go to HR Homepage &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
             <h2>Inventory Management</h2>
             <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
+                Managing medical supplies and equipment.</p>
             <p>
-                <a class="btn btn-default" href="G2Home.aspx">Go to Inventory Homepage &raquo;</a>
+                <a class="btn btn-default" href="G2Home">Go to Inventory Homepage &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
+            <h2>Patient Interaction</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                Communication with patients.</p>
+            <p>
+                <a class="btn btn-default" href="G3Home">Go to Communication Homepage &raquo;</a>
             </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Marketing</h2>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                Managing leads and surveys.</p>
+            <p>
+                <a class="btn btn-default" href="G4Home">Go to Marketing Homepage &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Operations</h2>
+            <p>
+                Day-to-day operations of the clinic.</p>
+            <p>
+                <a class="btn btn-default" href="G5Home">Go to Operations Homepage &raquo;</a>
             </p>
         </div>
     </div>

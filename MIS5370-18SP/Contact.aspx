@@ -2,21 +2,13 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <h3>Here are the heroes of this project:</h3>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:mis5370ConnectionString %>" SelectCommand="SELECT * FROM [_Members] WHERE ([Member_Group] = @Member_Group)">
-        <SelectParameters>
-            <asp:ControlParameter ControlID="DropDownList1" Name="Member_Group" PropertyName="SelectedValue" Type="Byte" />
-        </SelectParameters>
+    <h3>This project is developed by the following students:</h3>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:mis5370ConnectionString %>" SelectCommand="SELECT * FROM [_Members]">
     </asp:SqlDataSource>
-    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:mis5370ConnectionString %>" SelectCommand="SELECT DISTINCT Member_Group FROM _Members"></asp:SqlDataSource>
-    <br />
-    Group:
-    <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource2" DataTextField="Member_Group" DataValueField="Member_Group">
-    </asp:DropDownList>
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="Vertical">
         <AlternatingRowStyle BackColor="#CCCCCC" />
         <Columns>
-            <asp:BoundField DataField="Member_Name" HeaderText="Name" SortExpression="Member_Name" />
+            <asp:BoundField DataField="Member_Name" HeaderText="Members of the Project" SortExpression="Member_Name" ShowHeader="False" />
         </Columns>
         <FooterStyle BackColor="#CCCCCC" />
         <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
