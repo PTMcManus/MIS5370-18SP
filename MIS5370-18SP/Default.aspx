@@ -5,7 +5,7 @@
     <div class="jumbotron">
         <h1>MIS5370 Spring 2018 Class Database Application</h1>
         <p class="lead">This application is developed by the students of MIS5370 Database Design and Implementation class of Spring 2018 at the Texas A&amp;M International University.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <p><a href="About" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
     <div class="row">
