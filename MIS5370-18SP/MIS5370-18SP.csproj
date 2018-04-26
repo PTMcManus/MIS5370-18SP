@@ -127,6 +127,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="G2Home.aspx" />
     <Content Include="G1Home.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
@@ -179,6 +180,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="G2Home.aspx.cs">
+      <DependentUpon>G2Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="G2Home.aspx.designer.cs">
+      <DependentUpon>G2Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="G1Home.aspx.cs">
       <DependentUpon>G1Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

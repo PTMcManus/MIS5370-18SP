@@ -14,7 +14,7 @@
             <p>
                 Human resource management and related functions.</p>
             <p>
-                <a class="btn btn-default" href="G1Home">Go to HR Homepage &raquo;</a>
+                <a class="btn btn-default" href="G1Home.aspx">Go to HR Homepage &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -22,7 +22,7 @@
             <p>
                 Managing medical supplies and equipment.</p>
             <p>
-                <a class="btn btn-default" href="G2Home">Go to Inventory Homepage &raquo;</a>
+                <a class="btn btn-default" href="G2Home.aspx">Go to Inventory Homepage &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
