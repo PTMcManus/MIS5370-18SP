@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Inventory Managment" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="G2Home.aspx" Inherits="MIS5370_18SP" %>
+﻿<%@ Page Title="Inventory Managment" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="G2Home.aspx.cs" Inherits="MIS5370_18SP.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 

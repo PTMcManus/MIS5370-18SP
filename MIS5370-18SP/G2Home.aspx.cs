@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace MIS5370_18SP
 {
-    public partial class G1Home : Page
+    public partial class G2Home : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
