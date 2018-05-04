@@ -20,7 +20,7 @@ namespace MIS5370_18SP
         {
             try
             {
-                SqlConnection con = new SqlConnection("Data Source=mis5370.database.windows.net;Initial Catalog=mis5370;Persist Security Info=True;User ID=sp18mis5370web;Password=***********");
+                SqlConnection con = new SqlConnection("Data Source=mis5370.database.windows.net;Initial Catalog=mis5370;Persist Security Info=False;User ID=sp18mis5370web;Password=***********");
                 con.Open();
                 string insert = "insert into Inventory(Room_Number, Inventory_Quantity, Inventory_Status, Recommended_Amt, Urgency_Indicator) values(@Room_Number, @Inventory_Quantity, @Inventory_Status, @Recommended_Amt, @Urgency_Indicator)";
                 SqlCommand cmd = new SqlCommand(insert, con);
