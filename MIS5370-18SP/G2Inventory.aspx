@@ -18,54 +18,7 @@
     <form id="form1" runat="server">
         <div class="auto-style1">
             <div class="auto-style2">
-            <asp:Label ID="Label6" runat="server" Font-Overline="False" Font-Size="Larger" Text="Enter Data Here:"></asp:Label>
-            <br />
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Label ID="Label1" runat="server" Text="Inventory Tag ID"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-            <asp:TextBox ID="inventoryID" runat="server"></asp:TextBox>
-                <br />
-                <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Label ID="Label2" runat="server" Text="Room Number"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-            <asp:TextBox ID="roomNum" runat="server"></asp:TextBox>
-                <br />
-                <br />
-&nbsp;<asp:Label ID="Label5" runat="server" Text="Inventory Quantity"></asp:Label>
-            <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="inventoryQuantity" runat="server"></asp:TextBox>
-                &nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <br />
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Label ID="Label3" runat="server" Text="Inventory Status"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-            <asp:TextBox ID="inventoryStat" runat="server"></asp:TextBox>
-                <br />
-                <br />
-&nbsp;&nbsp;&nbsp; <asp:Label ID="Label4" runat="server" Text="Recommended Amount"></asp:Label>
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="recommendAmt" runat="server"></asp:TextBox>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-                <br />
-                <asp:Label ID="Label7" runat="server" Text="Urgency Indicator"></asp:Label>
-                <br />
-                <div class="auto-style1">
-                <asp:RadioButtonList ID="radioUrgency" runat="server" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged1" RepeatDirection="Horizontal" Height="0px" Width="101px" align="center">
-                <asp:ListItem>Yes</asp:ListItem>
-                <asp:ListItem>No</asp:ListItem>   
-                </asp:RadioButtonList>
-                </div>
-                <br />
-            <asp:Button ID="btnSubmit" runat="server" Font-Bold="True" Font-Size="Small" Text="Submit" OnClick="btnSubmit_Click1" style="height: 26px"/>
-            <br />
-            </div>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:mis5370ConnectionString %>" SelectCommand="SELECT * FROM [Inventory]"></asp:SqlDataSource>
-        </div>
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="Inventory_Tag_ID" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
@@ -86,6 +39,9 @@
             <SortedDescendingCellStyle BackColor="#FCF6C0" />
             <SortedDescendingHeaderStyle BackColor="#820000" />
         </asp:GridView>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+            </div>
+        </div>
     </form>
 </body>
 </html>
