@@ -12,16 +12,15 @@
         </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="inventoryPage" runat="server">
         <div class="auto-style1">
             <div class="auto-style1">
                 <div>
                     <h2>Inventory Data:</h2>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:mis5370ConnectionString %>" SelectCommand="SELECT * FROM [Inventory]" OnSelecting="SqlDataSource1_Selecting"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="sqlDataSourceInventory" runat="server" ConnectionString="<%$ ConnectionStrings:mis5370ConnectionString %>" SelectCommand="SELECT * FROM [Inventory]" OnSelecting="SqlDataSource1_Selecting"></asp:SqlDataSource>
                 </div>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="3" DataKeyNames="Inventory_Tag_ID" DataSourceID="SqlDataSource1" AllowSorting="True" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellSpacing="2">
+        <asp:GridView ID="inventoryData" runat="server" AutoGenerateColumns="False" CellPadding="3" DataKeyNames="Inventory_Tag_ID" DataSourceID="sqlDataSourceInventory" AllowSorting="True" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellSpacing="2" AllowPaging="True">
             <Columns>
-                <asp:CommandField ShowSelectButton="True" />
                 <asp:BoundField DataField="Inventory_Tag_ID" HeaderText="Inventory_Tag_ID" ReadOnly="True" SortExpression="Inventory_Tag_ID" />
                 <asp:BoundField DataField="Room_Number" HeaderText="Room_Number" SortExpression="Room_Number" />
                 <asp:BoundField DataField="Inventory_Quantity" HeaderText="Inventory_Quantity" SortExpression="Inventory_Quantity" />

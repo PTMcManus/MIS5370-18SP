@@ -138,6 +138,13 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="G2PackagingList.aspx" />
+    <Content Include="G2Vendor.aspx" />
+    <Content Include="G2Invoice.aspx" />
+    <Content Include="G2OrderLine.aspx" />
+    <Content Include="G2Order.aspx" />
+    <Content Include="G2Shipment.aspx" />
+    <Content Include="G2Supplies.aspx" />
     <Content Include="G2Inventory.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -218,6 +225,55 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="G2PackagingList.aspx.cs">
+      <DependentUpon>G2PackagingList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="G2PackagingList.aspx.designer.cs">
+      <DependentUpon>G2PackagingList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="G2Vendor.aspx.cs">
+      <DependentUpon>G2Vendor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="G2Vendor.aspx.designer.cs">
+      <DependentUpon>G2Vendor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="G2Invoice.aspx.cs">
+      <DependentUpon>G2Invoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="G2Invoice.aspx.designer.cs">
+      <DependentUpon>G2Invoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="G2OrderLine.aspx.cs">
+      <DependentUpon>G2OrderLine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="G2OrderLine.aspx.designer.cs">
+      <DependentUpon>G2OrderLine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="G2Order.aspx.cs">
+      <DependentUpon>G2Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="G2Order.aspx.designer.cs">
+      <DependentUpon>G2Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="G2Shipment.aspx.cs">
+      <DependentUpon>G2Shipment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="G2Shipment.aspx.designer.cs">
+      <DependentUpon>G2Shipment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="G2Supplies.aspx.cs">
+      <DependentUpon>G2Supplies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="G2Supplies.aspx.designer.cs">
+      <DependentUpon>G2Supplies.aspx</DependentUpon>
     </Compile>
     <Compile Include="G2Inventory.aspx.cs">
       <DependentUpon>G2Inventory.aspx</DependentUpon>

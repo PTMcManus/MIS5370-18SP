@@ -13,30 +13,30 @@ namespace MIS5370_18SP {
     public partial class G2Inventory {
         
         /// <summary>
-        /// inventoryPage control.
+        /// packagingListPage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm inventoryPage;
+        protected global::System.Web.UI.HtmlControls.HtmlForm packagingListPage;
         
         /// <summary>
-        /// sqlDataSourceInventory control.
+        /// sqlDataSourcePackagingList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource sqlDataSourceInventory;
+        protected global::System.Web.UI.WebControls.SqlDataSource sqlDataSourcePackagingList;
         
         /// <summary>
-        /// inventoryData control.
+        /// packinglistData control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView inventoryData;
+        protected global::System.Web.UI.WebControls.GridView packinglistData;
     }
 }
